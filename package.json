@@ -1,6 +1,6 @@
 {
   "name": "hey-bro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI Assistant direct in your terminal :)",
   "main": "index.js",
   "type": "module",
@@ -30,5 +30,8 @@
   },
   "overrides": {
     "whatwg-url": "13.0.0"
+  },
+  "bin": {
+    "hey-bro": "./src/index.js"
   }
 }
