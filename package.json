@@ -1,6 +1,6 @@
 {
   "name": "hey-bro",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AI Assistant direct in your terminal :)",
   "main": "index.js",
   "type": "module",
@@ -26,10 +26,8 @@
   "dependencies": {
     "axios": "^1.7.2",
     "openai": "^4.52.7",
+    "whatwg-url": "^13.0.0",
     "yargs": "^17.7.2"
-  },
-  "overrides": {
-    "whatwg-url": "13.0.0"
   },
   "bin": {
     "hey-bro": "./src/index.js"
