@@ -12,7 +12,7 @@ const args = yargs(hideBin(process.argv))
 const question = args._.join(' ')
 
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey: process.env.OPENAI_API_KEY_HEY_BRO,
 });
 
 const response = await openai.chat.completions.create({
